@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  color: white;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 200px;
+  text-shadow: 3px 3px 3px #121619;
+  padding-bottom: 80px;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+  color: #121619;
+}
+
+p {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: #6C6E70;
+  padding-top: 50px;
+}
+
+span {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25pt;
+  color: #6C6E70;
+}
+span span {
+  color: #E56353;
+}
+
+.autor-descripcion {
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  line-height: 22px;
+  color: #6C6E70;
+}
+
+h4 {
+  font-size: 12px;
+  text-align: left;
+  line-height: 18px;
+  color: #E56353;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 40px;
+    padding-top: 90px;
+  }
+}
+.boton_num {
+  width: 25px;
+  height: 20px;
+  padding: 10px;
+  background-color: white;
+  color: #121619;
+  text-decoration: none;
+}
+
+.boton_num:hover, .boton_before:hover, .boton_next:hover {
+  background-color: #6C6E70;
+  color: white;
+  text-decoration: "none";
+}
+
+.boton_before {
+  background-color: white;
+  padding: 10px 20px;
+  color: #222323;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  text-decoration: none;
+}
+
+.boton_next {
+  background-color: white;
+  padding: 10px 20px;
+  color: #222323;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.section_parrafo {
+  background-color: white;
+}
+
+.autor-fotoPersonal {
+  border: 4px;
+  border-color: #6C6E70;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.img_principal {
+  background-image: url("../../img/post-image.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.color_menu {
+  background-color: #121619;
+}
+
+@media screen and (min-width: 1200px) {
+  .img_principal {
+    height: 600px;
+  }
+}
+.footer_gris {
+  background-color: #D1D1D1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_negro {
+  background-color: #121619;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+@import '../abstracts/variables';
+.img_principal{
+    background-image: url('../../img/post-image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // height: 600px;
+    width: 100%;
+}
+
+.color_menu{
+    background-color: $color_negro;
+}
+
+@media screen and (min-width: 1200px){
+.img_principal{
+height: 600px;
+}
+}
+

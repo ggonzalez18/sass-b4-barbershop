@@ -1,0 +1,69 @@
+@import '../abstracts/variables';
+
+body{
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    color: $color_blanco;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 3px 3px 3px $color_negro;
+    padding-bottom: 80px;
+}
+
+h3{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+    color: $color_negro;
+}
+
+p{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 18px;
+    text-align: left;
+    color: $color_nickel;
+    padding-top: 50px;
+}
+
+span{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25pt;
+    color: $color_nickel;
+    span {
+        color: $color_rosalato;
+    }
+}
+
+.autor-descripcion{
+    font-size: 14px;
+    text-align: left;
+    line-height: 18px;
+    line-height: 22px;
+    color: $color_nickel;
+}
+
+h4{
+    font-size: 12px;
+    text-align: left;
+    line-height: 18px;
+    color: $color_rosalato;
+    font-weight: lighter;
+}
+@media screen and (max-width: 800px){
+.title{
+font-size:40px;
+padding-top: 90px;
+}
+}
+

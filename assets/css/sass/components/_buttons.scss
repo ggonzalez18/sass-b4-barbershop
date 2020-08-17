@@ -1,0 +1,32 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.boton_num{
+    width: 25px;
+    height: 20px;
+    padding: 10px;
+    background-color: $color_blanco;
+    color: $color_negro;
+    text-decoration: none;
+    .boton_num:hover , .boton_before:hover, .boton_next:hover{
+    @include hover_boton_footer ($color_nickel,$color_blanco,"none")
+}
+}
+
+.boton_before{
+    background-color: $color_blanco;
+    padding: 10px 20px;
+    color: $color_raisinblack;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    text-decoration: none;
+}
+
+.boton_next{
+    background-color: $color_blanco;
+    padding: 10px 20px;
+    color: $color_raisinblack;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    text-decoration: none;
+}

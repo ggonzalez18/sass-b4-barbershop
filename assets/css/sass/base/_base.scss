@@ -1,0 +1,65 @@
+@import '../abstracts/variables';
+body{
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+// typography
+.title{
+    color: $color_blanco;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 3px 3px 3px $color_negro;
+    padding-bottom: 80px;
+}
+p{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 18px;
+    text-align: left;
+    color: $color_nickel;
+    padding-top: 50px;
+}
+
+span{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25pt;
+    color: $color_nickel;
+    span {
+        color: $color_rosalato;
+    }
+}
+
+// img contenedor principal
+.img_principal{
+    background-image: url('../../img/post-image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // height: 600px;
+    width: 100%;
+}
+
+//body
+
+.section_parrafo{
+    background-color: $color_blanco;
+}
+
+//footer
+
+.footer_gris{
+    background-color: $color_lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_negro{
+    background-color: $color_negro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

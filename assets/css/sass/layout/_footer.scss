@@ -1,0 +1,15 @@
+@import '../abstracts/variables';
+
+.footer_gris{
+    background-color: $color_lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // @include seccion($color_lightgray,"100%","30px auto");
+}
+
+.footer_negro{
+    background-color: $color_negro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // @include seccion($color_negro,"100%","60px auto");
+}

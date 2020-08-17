@@ -1,0 +1,13 @@
+@import '../abstracts/variables';
+
+.section_parrafo{
+    background-color: $color_blanco;
+}
+
+.autor-fotoPersonal{
+border: 4px;
+border-color: $color_nickel;
+border-radius: 100px;
+width: 200px;
+height: 200px;
+}
